@@ -1,0 +1,25 @@
+# SECRETS — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Generated step images
+static/steps/
+
+# Local test artifacts
+*.jpg
+*.jpeg
+*.png
+resp.json
+server.log
+
+# OS
+.DS_Store
+Thumbs.db

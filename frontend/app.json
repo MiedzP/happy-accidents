@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Drawing Teacher",
+    "slug": "drawing-teacher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "drawing-teacher",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Drawing Teacher needs your photos to analyze what you want to draw.",
+          "cameraPermission": "Drawing Teacher needs camera access to photograph things you want to learn to draw."
+        }
+      ]
+    ]
+  }
+}
